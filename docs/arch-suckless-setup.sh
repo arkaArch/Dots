@@ -46,3 +46,4 @@ tar -xf ~/Dots/themes/WhiteSur-Dark.tar.xz -C ~/.themes/
 # Link .xintrc
 ln -svf ~/Dots/confs/x/.xinitrc ~
 ln -svf ~/Dots/confs/x/.Xresources ~
+sudo cp ~/Dots/confs/x/40-touchpad.conf /etc/X11/xorg.conf.d

@@ -31,8 +31,8 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       0,            0,           -1 },
+	{ "kitty",    NULL,       NULL,       0,            1,           -1 },
 };
 
 /* layout(s) */
@@ -72,6 +72,8 @@ static const char *music[] = { "kitty", "-e", "ncmpcpp", NULL };
 static const char *upvol[] = { "./Dots/scripts/volume_notify.sh", "up", NULL };
 static const char *downvol[] = { "./Dots/scripts/volume_notify.sh", "down", NULL };
 static const char *mutevol[] = { "./Dots/scripts/volume_notify.sh", "mute", NULL };
+static const char *lightup[] = { "./Dots/scripts/light_notify.sh", "up", NULL };
+static const char *lightdown[] = { "./Dots/scripts/light_notify.sh", "down", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key         function        argument */
@@ -108,6 +110,8 @@ static const Key keys[] = {
     { 0,              XF86XK_AudioRaiseVolume,  spawn,          {.v = upvol} },
     { 0,              XF86XK_AudioLowerVolume,  spawn,          {.v = downvol} },
     { 0,              XF86XK_AudioMute,         spawn,          {.v = mutevol} },
+    { 0,              XF86XK_MonBrightnessUp,   spawn,          {.v = lightup} },
+    { 0,              XF86XK_MonBrightnessDown, spawn,          {.v = lightdown} },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)

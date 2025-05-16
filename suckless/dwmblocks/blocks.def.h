@@ -4,7 +4,8 @@ static const Block blocks[] = {
 	
     {" ",    "~/Dots/scripts/memory_block.sh",        30,   0 },
 	{"",     "~/Dots/scripts/temparature_block.sh",   30,   0 },
-	{"",     "~/Dots/scripts/volume_block.sh",         0,  10 },
+	{"",     "~/Dots/scripts/light_block.sh",       3600,  12 },
+	{"",     "~/Dots/scripts/volume_block.sh",      3600,  10 },
 	{"",     "~/Dots/scripts/battery_block.sh",       60,   0 },
 	{"",     "~/Dots/scripts/datetime_block.sh",      60,   0 },
 };

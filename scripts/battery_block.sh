@@ -5,7 +5,8 @@ charging_status=$(cat "/sys/class/power_supply/BAT0/status")
 case $charging_status in
     "Full") icon="⚡" ;;
     "Charging") icon="🔌" ;;
-    "Discharging") icon="🔋" ;;
+    "Discharging") icon="⚗️" ;;
+    "Not charging") icon="🪝" ;;
     "*") icon="🛑" ;;
 esac
 
