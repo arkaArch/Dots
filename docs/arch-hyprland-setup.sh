@@ -26,7 +26,7 @@ ln -svf ~/Dots/confs/waybar/ ~/.config/
 ln -svf ~/Dots/confs/wofi/ ~/.config/
 
 # Sound and brightness:
-sudo pacman -S pipewire wireplumber sof-firmware pipewire-audio pipewire-pulse brightnessctl
+sudo pacman -S pipewire wireplumber sof-firmware pipewire-audio pipewire-pulse pamixer brightnessctl
 
 
 # File manager:
@@ -63,7 +63,7 @@ ln -svf ~/Dots/confs/zsh/.zshrc ~/.zshrc
 
 # Cli tools, firmware-updaters:
 sudo pacman -S pacman-contrib tree git openssh fwupd neofetch
-
+ln -svf ~/Dots/confs/neofetch/config.conf ~/.config
 
 # Link neovim setup:
 ln -svf ~/Dots/nvim ~/.config

@@ -45,3 +45,4 @@ tar -xf ~/Dots/themes/WhiteSur-Dark.tar.xz -C ~/.themes/
 
 # Link .xintrc
 ln -svf ~/Dots/confs/x/.xinitrc ~
+ln -svf ~/Dots/confs/x/.Xresources ~

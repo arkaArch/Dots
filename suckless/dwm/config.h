@@ -8,7 +8,7 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { 
     "CaskaydiaCove Nerd Font:size=10", 
-    "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true" 
+    "NotoColorEmoji:pixelsize=12:antialias=true:autohint=true" 
 };
 static const char dmenufont[]       = "CaskaydiaCove Nerd Font:size=10";
 static const char col_gray1[]       = "#2d353b";
@@ -65,13 +65,13 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *termcmd[]  = { "st", NULL };
-static const char *browser[] = { "librewolf", NULL };
+static const char *browser[] = { "firefox", NULL };
 static const char *dmenucmd[] = { "dmenu_run", NULL };
-static const char *files[] = { "st", "-e", "yazi", NULL };
-static const char *music[] = { "st", "-e", "ncmpcpp", NULL };
-static const char *upvol[] = { "./arch-dots/scripts/volume_notify.sh", "up", NULL };
-static const char *downvol[] = { "./arch-dots/scripts/volume_notify.sh", "down", NULL };
-static const char *mutevol[] = { "./arch-dots/scripts/volume_notify.sh", "mute", NULL };
+static const char *files[] = { "kitty", "-e", "yazi", NULL };
+static const char *music[] = { "kitty", "-e", "ncmpcpp", NULL };
+static const char *upvol[] = { "./Dots/scripts/volume_notify.sh", "up", NULL };
+static const char *downvol[] = { "./Dots/scripts/volume_notify.sh", "down", NULL };
+static const char *mutevol[] = { "./Dots/scripts/volume_notify.sh", "mute", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key         function        argument */

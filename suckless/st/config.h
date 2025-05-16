@@ -5,10 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "CaskaydiaCove Nerd Font:pixelsize=15:antialias=true:autohint=true";
+static char *font = "CaskaydiaCove Nerd Font:pixelsize=19:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-    "NotoColorEmoji:pixelsize=15:antialias=true:autohint=true"
+    "NotoColorEmoji:pixelsize=19:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
