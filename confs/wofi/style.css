@@ -1,0 +1,25 @@
+#window {
+    background-color: rgba(39, 46, 51, 0.9);    
+    color: #d3c6aa;
+    font-size: 14px;
+    font-weight: medium;
+    font-family: FiraCode Nerd Font;
+}
+
+#entry {
+    padding: 8px;
+}
+
+#input {
+    padding: 4px 8px;
+    color: #d3c6aa;
+    background-color: rgba(39, 46, 51, 0.5);    
+}
+
+#entry:selected {
+    background-color: #a7c080;
+}
+
+#text:selected {
+    color: #1e2326;
+}

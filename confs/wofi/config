@@ -1,0 +1,9 @@
+width=450
+height=250
+term=kitty
+prompt=search
+allow_markup=true
+allow-image=true
+insensetive=true
+hide_scroll=true
+
