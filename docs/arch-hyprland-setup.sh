@@ -62,8 +62,8 @@ ln -svf ~/Dots/confs/zsh/.zshrc ~/.zshrc
 
 
 # Cli tools, firmware-updaters:
-sudo pacman -S pacman-contrib tree git openssh fwupd neofetch
-ln -svf ~/Dots/confs/neofetch/config.conf ~/.config
+sudo pacman -S pacman-contrib tree git openssh fwupd neofetch btop
+ln -svf ~/Dots/confs/neofetch/ ~/.config
 
 # Link neovim setup:
 ln -svf ~/Dots/nvim ~/.config

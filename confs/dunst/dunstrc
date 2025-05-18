@@ -4,8 +4,8 @@
     #---------- Display ----------#
     monitor = 0
     follow = none
-    width = 250
-    height = (0,250) 
+    width = 275
+    height = (0,275)
     origin = bottom-center
     offset = (0,40)
     scale = 0
@@ -34,7 +34,7 @@
     sort = yes
 
     #---------- Text ----------#
-    font = CaskaydiaCove Nerd Font 10
+    font = CaskaydiaCove Nerd Font 12
     line_height = 0
     markup = full
     format = "<b>%s</b>\n%b"
