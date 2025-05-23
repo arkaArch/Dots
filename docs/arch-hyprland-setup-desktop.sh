@@ -15,8 +15,8 @@ ln -svf ~/Dots/confs/fontconfig ~/.config
 
 
 # Terminal:
-sudo pacman -S kitty
-ln -svf ~/Dots/confs/kitty/ ~/.config/
+sudo pacman -S ghostty
+ln -svf ~/Dots/desktop/ghostty ~/.config/
 
 
 # Install hypr ecosystems:
