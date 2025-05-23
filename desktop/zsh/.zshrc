@@ -67,6 +67,9 @@ alias \
     mp='ncmpcpp' \
     yta='yt-dlp --extract-audio --audio-format mp3' \
     ytv="yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'" \
+    td='transmission-daemon' \
+    tra='transmission-remote -a' \
+    syncall='rsync -av --delete --ignore-existing $HOME/{Movies,Music} /run/media/arka/ExternalHDD/'
 
 # Pacman aliases:
 alias \
