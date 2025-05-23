@@ -45,6 +45,7 @@ systemctl --user start mpd
 
 # Notification:
 sudo pacman -S libnotify dunst
+mkdir ~/.local/share
 cp -r ~/Dots/icons ~/.local/share
 ln -svf ~/Dots/confs/dunst ~/.config
 

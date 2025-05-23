@@ -1,7 +1,7 @@
 {
     "layer": "top",
     "position": "top",
-    "height": 35,
+    "height": 34,
     "spacing": 4,
 
     "modules-left": [
@@ -65,7 +65,7 @@
     },
     
     "network": {
-        "format-ethernet": "  {ipaddr}/{cidr}",
+        "format-ethernet": " connected",
         "tooltip-format": "{ifname} via {gwaddr}",
         "format-linked": "{ifname} (No IP)",
         "format-disconnected": "⚠ Disconnected",
@@ -82,6 +82,7 @@
     },
 
     "temperature": {
+        "thermal-zone": 2,
         "critical-threshold": 80,
         "format": "{icon} {temperatureC}°C",
         "format-icons": ["", "", ""]
