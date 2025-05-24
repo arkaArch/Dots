@@ -21,8 +21,8 @@ ln -svf ~/Dots/confs/kitty/ ~/.config/
 
 # Install hypr ecosystems:
 sudo pacman -S hyprland hyprpaper hypridle hyprlock hyprpolkitagent waybar wofi
-ln -svf ~/Dots/confs/hypr/ ~/.config/
-ln -svf ~/Dots/confs/waybar/ ~/.config/
+ln -svf ~/Dots/confs/hypr/everforest-laptop/ ~/.config/hypr
+ln -svf ~/Dots/confs/waybar/everforst-laptop ~/.config/waybar
 ln -svf ~/Dots/confs/wofi/ ~/.config/
 
 # Sound and brightness:
