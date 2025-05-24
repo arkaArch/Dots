@@ -47,7 +47,7 @@
  
 
     "clock": {
-        "format": " {:%H:%M  %d/%m}",
+        "format": " {:%I:%M%p   %b %d, %Y}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
   
