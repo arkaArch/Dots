@@ -65,5 +65,7 @@ ln -svf ~/Dots/desktop/zsh/.zshrc ~/.zshrc
 # Cli tools, firmware-updaters:
 sudo pacman -S pacman-contrib tree git openssh fwupd fastfetch btop rsync
 
-# Link neovim setup:
-ln -svf ~/Dots/nvim ~/.config
+
+# vim
+sudo pacman -S vim
+ln -svf ~/Dots/desktop/vim/.vimrc ~

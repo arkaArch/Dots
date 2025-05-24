@@ -1,6 +1,6 @@
 # EXPORT
 export TERM="xterm-256color"                      
-export EDITOR="nvim"                      
+export EDITOR="vim"                      
 
 # Enable colors
 autoload -U colors && colors
@@ -62,7 +62,7 @@ alias \
 # Application aliases:
 alias \
     t='tree -Ca' \
-    v='nvim' \
+    v='vim' \
     yz='yazi' \
     mp='ncmpcpp' \
     yta='yt-dlp --extract-audio --audio-format mp3' \
