@@ -58,7 +58,7 @@ sudo pacman -S exa
 sudo pacman -S zsh zsh-{completions,syntax-highlighting,autosuggestions}
 chsh -s $(which zsh)
 rm -r ~/.bash*
-ln -svf ~/Dots/confs/zsh/.zshrc ~/.zshrc
+ln -svf ~/Dots/confs/zsh/zshrc-laptop ~/.zshrc
 
 
 # Cli tools, firmware-updaters:
