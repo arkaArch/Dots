@@ -15,8 +15,8 @@ ln -svf ~/Dots/confs/fontconfig ~/.config
 
 
 # Terminal:
-sudo pacman -S ghostty
-ln -svf ~/Dots/confs/ghostty ~/.config/
+sudo pacman -S alacritty ueberzugpp
+ln -svf ~/Dots/confs/alacritty ~/.config/
 
 
 # Install hypr ecosystems:
