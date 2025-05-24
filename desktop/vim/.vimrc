@@ -1,10 +1,8 @@
-syntax on
-set rnu
-set nocompatible
+set rnu             " Set relative number
+syntax on           " Turn syntax highlighting on
+set nocompatible    " Disable compatibility with vi which can cause unexpected issues
+set smartindent     
 set autoindent
-set smartindent
-set autoindent
-set smartindent
-set tabstop=4
-set shiftwidth=4
-set expandtab 
+set tabstop=4       " Set tab width to 4 columns
+set shiftwidth=4    " Set shift width to 4 spaces
+set expandtab       " Use space characters instead of tabs 
