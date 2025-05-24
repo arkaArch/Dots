@@ -38,7 +38,7 @@ cd $HOME
 # Themes and icons:
 sudo pacman -S lxappearance-gtk3 papirus-icon-theme
 mkdir ~/.themes
-tar -xf ~/Dots/themes/WhiteSur-Dark.tar.xz -C ~/.themes/
+tar -xf ~/Dots/themes/whitesur-dark.tar.xz -C ~/.themes/
 
 # Open lxappearance and change fonts, themes according to you 
 
