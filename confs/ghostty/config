@@ -1,6 +1,6 @@
 # Fonts
 font-family= "CaskaydiaCove Nerd Font"
-font-size = 11.5
+font-size = 11
 theme = rose-pine
 background-opacity = 0.90
 background-blur = true

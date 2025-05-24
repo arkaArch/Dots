@@ -20,7 +20,7 @@ ln -svf ~/Dots/confs/ghostty ~/.config/
 
 
 # Install hypr ecosystems:
-sudo pacman -S hyprland hyprpaper hypridle hyprlock hyprpolkitagent waybar rofi-wayland
+sudo pacman -S hyprland hyprpaper hypridle hyprlock hyprpolkitagent waybar rofi-wayland 
 ln -svf ~/Dots/confs/hypr/rosepine-desktop/ ~/.config/hypr
 ln -svf ~/Dots/confs/waybar/rosepine-desktop/ ~/.config/waybar
 
