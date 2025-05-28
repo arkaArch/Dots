@@ -34,14 +34,13 @@ done
 cd $HOME
 
 
-
-# Themes and icons:
-sudo pacman -S lxappearance-gtk3 papirus-icon-theme
-mkdir ~/.themes
-tar -xf ~/Dots/themes/whitesur-dark.tar.xz -C ~/.themes/
-
-# Open lxappearance and change fonts, themes according to you 
-
+# Look and feel:
+sudo pacman -S lxappearance-gtk3
+mkdir ~/{.themes,.icons}
+tar -xzf ~/Dots/themes/everforest-dark-bordered.tar.gz -C ~/.themes
+ln -svf ~/Dots/themes/dwm.css ~/.config/gtk-3.0/gtk.css
+unzip ~/Dots/icons/themes/everforest-dark-icons.zip -d ~/.icons
+tar -xzf ~/Dots/icons/themes/nordzy-cursors.tar.gz -C ~/.icons
 
 # Link .xintrc
 ln -svf ~/Dots/confs/x/.xinitrc ~
