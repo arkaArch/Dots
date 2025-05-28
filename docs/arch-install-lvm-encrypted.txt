@@ -30,7 +30,7 @@ Command (m for help): g
 Command (m for help): n                         -- n for new
 Partition number (1-128, default 1):            -- Hit enter to select default
 First sector (....................):            -- Hit enter to select default
-Last sector, .....................): +1G        -- For 1GB size
+Last sector, .....................): +300M      -- For 300MB size
 Command (m for help): t                         -- Type of the partition
 Selected partition 1
 Partition type or alias (type T to list all): 1 -- 1 is the alias of EFI System
