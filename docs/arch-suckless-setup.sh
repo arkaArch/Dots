@@ -73,7 +73,8 @@ ln -svf ~/Dots/config/zsh/zshrc ~/.zshrc
 # Cli tools, firmware-updaters:
 sudo pacman -S pacman-contrib tree git openssh fwupd neofetch btop
 ln -svf ~/Dots/config/neofetch/ ~/.config
-ln -svf ~/Dots/config/btop-themes/rose-pine.theme ~/.config/btop/themes
+mkdir -p ~/.config/btop/themes
+ln -svf ~/Dots/config/btop-themes/everforest-dark-hard.theme ~/.config/btop/themes
 
 
 # Link neovim setup:
