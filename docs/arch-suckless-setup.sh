@@ -17,6 +17,7 @@ ln -svf ~/Dots/config/fontconfig ~/.config
 
 # Install required xorg packages and an extra terminal:
 sudo pacman -S xorg xorg-xinit xwallpaper kitty
+ln -svf ~/Dots/config/kitty ~/.config
 
 
 # Install required headers for make suckless tools
