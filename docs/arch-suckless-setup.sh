@@ -72,8 +72,8 @@ ln -svf ~/Dots/config/zsh/zshrc ~/.zshrc
 
 
 # Cli tools, firmware-updaters:
-sudo pacman -S pacman-contrib tree git openssh fwupd neofetch btop
-ln -svf ~/Dots/config/neofetch/ ~/.config
+sudo pacman -S pacman-contrib tree git openssh fwupd btop fastfetch
+ln -svf ~/Dots/config/fastfetch ~/.config
 mkdir -p ~/.config/btop/themes
 ln -svf ~/Dots/config/btop-themes/everforest-dark-hard.theme ~/.config/btop/themes
 
