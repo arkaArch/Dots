@@ -1,10 +1,8 @@
 /* See LICENSE file for copyright and license details. */
 
-/*
- * appearance
- *
- * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
- */
+/* colorscheme */
+#include "./themes/everforest.h"
+
 static char *font = "CaskaydiaCove Nerd Font:pixelsize=20:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
@@ -97,35 +95,6 @@ char *termname = "st-256color";
  *	stty tabs
  */
 unsigned int tabspaces = 8;
-
-/* Terminal colors (16 first used in escape sequence) */
-static const char *colorname[] = {
-    /* Everforest theme */
-    /* 8 normal colors */
-    [0] = "#475258", /* black   */
-    [1] = "#e67e80", /* red     */
-    [2] = "#a7c080", /* green   */
-    [3] = "#dbbc7f", /* yellow  */
-    [4] = "#7fbbb3", /* blue    */
-    [5] = "#d699b6", /* magenta */
-    [6] = "#83c092", /* cyan    */
-    [7] = "#d3c6aa", /* white   */
-                                  
-    /* 8 bright colors */
-    [8]  = "#475258", /* black   */
-    [9]  = "#e67e80", /* red     */
-    [10] = "#a7c080", /* green   */
-    [11] = "#dbbc7f", /* yellow  */
-    [12] = "#7fbbb3", /* blue    */
-    [13] = "#d699b6", /* magenta */
-    [14] = "#83c092", /* cyan    */
-    [15] = "#d3c6aa", /* white   */
-                                   
-    /* special colors */
-    [256] = "#2d353b", /* background */
-    [257] = "#d3c6aa", /* foreground */
-};
-
 
 /*
  * Default colors (colorname index)
