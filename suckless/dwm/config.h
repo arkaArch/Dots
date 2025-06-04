@@ -1,5 +1,8 @@
 /* See LICENSE file for copyright and license details. */
 
+/* Added colorschemes */
+#include "./themes/everforest.h"
+
 /* appearance */
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int gappx     = 5;        /* gaps between windows */
@@ -11,15 +14,11 @@ static const char *fonts[]          = {
     "NotoColorEmoji:pixelsize=12:antialias=true:autohint=true" 
 };
 static const char dmenufont[]       = "CaskaydiaCove Nerd Font:size=10";
-static const char col_gray1[]       = "#2d353b";
-static const char col_gray2[]       = "#475258";
-static const char col_white[]       = "#d3c6aa";
-static const char col_black[]       = "#475258";
-static const char col_cyan[]        = "#a7c080";
+
 static const char *colors[][3]      = {
-	/*               fg          bg         border   */
-	[SchemeNorm] = { col_white,  col_gray1, col_gray2 },
-	[SchemeSel]  = { col_black,  col_cyan,  col_cyan  },
+/*                     fg          bg         border   */
+	[SchemeNorm] = { norm_text,  norm_bg,   norm_border },
+	[SchemeSel]  = { sel_text,   sel_bg,    sel_border  },
 };
 
 /* tagging */
