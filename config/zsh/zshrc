@@ -101,8 +101,8 @@ fv() { nvim $(fzf --preview='cat {}') }
 
 
 # Start zsh with
-# neofetch
-~/Dots/scripts/ufetch-arch.sh
+fastfetch
+# ~/Dots/scripts/ufetch-arch.sh
 
 ## ==================== PLUGINS ==================== ##
 # Load zsh plugins; should be last.
