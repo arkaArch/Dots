@@ -1,7 +1,7 @@
 #!/bin/env/bash
 # Install required program:
 sudo dnf install gnome-extensions-app gnome-shell-extension-dash-to-dock \
-    mpv
+    mpv gcc-c++ gdb
 
 
 # Uninstall unused program:
