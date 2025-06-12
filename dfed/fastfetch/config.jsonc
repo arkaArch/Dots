@@ -1,0 +1,33 @@
+{
+  "modules": [
+    "title",
+    "separator",
+    {
+        "type": "os",
+        "format": "{3}" 
+    },
+    {
+        "type": "host",
+        "key" : "MB",
+        "format" : "{2} ({5})"
+    },
+    "uptime",
+    "packages",
+    {
+        "type": "display",
+        "key": "Display",
+        "format": "{1}x{2} @ {3}Hz in {12}\""
+    },
+    "de",
+    "terminal",
+    "terminalfont",
+    "cpu",
+    "gpu",
+    "memory",
+    "swap",
+    "disk",
+    "break",
+    "colors",
+    "break"
+  ]
+}

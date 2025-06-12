@@ -48,7 +48,7 @@
         {
             "type": "display",
             "key": "  󰍹 Display",
-            "format": "{1}x{2} @ {3}Hz {12}\"",
+            "format": "{1}x{2} @ {3}Hz in {12}\"",
             "keyColor": "green"
         },
         {

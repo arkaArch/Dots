@@ -1,7 +1,12 @@
 #!/bin/env/bash
 # Install required program:
 sudo dnf install gnome-extensions-app gnome-shell-extension-dash-to-dock \
-    mpv gcc-c++ gdb
+    mpv gcc-c++ gdb fzf fastfetch 
+
+# Customize .bashrc
+ln -svf ~/Dots/dfed/.bashrc ~
+# Customize fastfetch
+ln -svf ~/Dots/dfed/fastfetch/ ~/.config/
 
 
 # Uninstall unused program:
