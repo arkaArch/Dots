@@ -1,13 +1,4 @@
 #!/bin/env/bash
-# Install required program:
-sudo dnf install gnome-extensions-app gnome-shell-extension-dash-to-dock \
-    mpv gcc-c++ gdb fzf fastfetch 
-
-# Customize .bashrc
-ln -svf ~/Dots/dfed/.bashrc ~
-# Customize fastfetch
-ln -svf ~/Dots/dfed/fastfetch/ ~/.config/
-
 
 # Uninstall unused program:
 sudo dnf remove \
@@ -17,6 +8,25 @@ sudo dnf remove \
     anaconda-core anaconda-install-env-deps amd-gpu-firmware amd-ucode-firmware \
     abrt brlapi braille-printer-app bluez snapshot ntfs-3g \
     virtualbox-guest-additions qemu-guest-agent \
+
+# Install required program:
+sudo dnf install gnome-extensions-app gnome-shell-extension-dash-to-dock \
+    mpv gcc-c++ gdb fzf fastfetch 
+
+# Enbale rpm fusion:
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1
+
+# Replace ffmpeg-free with ffmpeg(RPM)
+sudo dnf install ffmpeg --allowerasing
+
+
+# Replace 
+
+# Customize .bashrc
+ln -svf ~/Dots/dfed/.bashrc ~
+# Customize fastfetch
+ln -svf ~/Dots/dfed/fastfetch/ ~/.config/
 
 
 # Install custom fonts:
