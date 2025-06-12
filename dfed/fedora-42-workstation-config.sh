@@ -21,8 +21,6 @@ sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1
 sudo dnf install ffmpeg --allowerasing
 
 
-# Replace 
-
 # Customize .bashrc
 ln -svf ~/Dots/dfed/.bashrc ~
 # Customize fastfetch
